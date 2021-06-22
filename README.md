@@ -22,14 +22,34 @@ Configurations for i3 , alacritty , polybar , rofi , vim & bashrc
 ![](/screenshots/configss2.png)
 #### Home Screen
 
-# Alacritty
-**` .config/alacritty/alacritty.yml `**
-Basic configuration for alacritty is already there in alacritty.yml with colour scheme generated for **` .config/wallpapers/takikiminonawaroof.jpg `** using pywal.
+# How to use:
+### 1. .bashrc:
+Put the .bashrc file in the **` ~/ `** directory \
+If one exists already then replace it with this file
 
-Oceanic-Blue , Gruvbox(Dark) , Gnome colour schemes are also available(They are commented)
 
-# Polybar & Rofi
-1. Polybar credits : https://github.com/adi1090x/polybar-themes
-2. Rofi credits : https://github.com/adi1090x/rofi
+### 2. .vimrc: 
+Put the .vimrc file in the **` ~/ `** directory \
+If one exists already then replace it with this file
 
-Just put the **` polybar `** and **` rofi `** folders in your **` .config `** folder.
+
+### 3. i3:
+Put the the i3 folder in your **` ~/.config/ `** directory \
+If **` ~/.config/i3 `** already exists then put the **` config `** file from the i3 folder of this repo in that directory \
+If a config file already exists the just replace it with this file
+
+
+### 4. Alacritty:
+Put the the alacritty folder in your **` ~/.config/ `** directory \
+If **` ~/.config/alacritty `** already exists then put the **` alacritty.yml `** file from the alacrittyy folder of this repo in that directory \
+If a alacritty.yml file already exists the just replace it with this file
+
+
+### 5. Polybar & Rofi:
+#### First install polybar and rofi : **` sudo apt install polybar `** & **` sudo apt install rofi `**
+Put the the polybar and rofi folder in your **` ~/.config/ `** directory & if they already exist replace them with these folders
+
+
+### 6. Wallpaper:
+Save the wallpaper wherever you want \
+**` exec_always feh --bg-scale Directory `** : Then in place of directory use the directory of the wallpaper on the 176th line of the i3 config file.
