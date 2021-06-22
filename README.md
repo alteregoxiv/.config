@@ -57,5 +57,6 @@ Follow the instructions provided there to get your polybar and rofi running in n
 
 
 ### 6. Wallpaper:
+Credits : https://www.wallpaperflare.com/your-name-wallpaper-kimi-no-na-wa-makoto-shinkai-starry-night-wallpaper-pmmol \
 Save the wallpaper wherever you want \
 **` exec_always feh --bg-scale Directory `** : Then in place of directory use the directory of the wallpaper on the 176th line of the i3 config file.
