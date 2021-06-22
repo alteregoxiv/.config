@@ -46,8 +46,14 @@ If a alacritty.yml file already exists the just replace it with this file
 
 
 ### 5. Polybar & Rofi:
-#### First install polybar and rofi : **` sudo apt install polybar `** & **` sudo apt install rofi `**
+Credits Polybar : https://github.com/adi1090x/polybar-themes
+Credits Rofi : https://github.com/adi1090x/rofi
+
+First install polybar and rofi : **` sudo apt install polybar `** & **` sudo apt install rofi `**
 Put the the polybar and rofi folder in your **` ~/.config/ `** directory & if they already exist replace them with these folders
+
+Please visit the above mentioned links if you wish to make your own polybar or rofi configuration or if any of the modules are not working.
+Follow the instructions provided there to get your polybar and rofi running in no time.
 
 
 ### 6. Wallpaper:
