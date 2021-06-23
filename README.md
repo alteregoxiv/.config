@@ -40,6 +40,9 @@ If a config file already exists the just replace it with this file
 
 
 ### 4. Alacritty:
+Basic configuration for alacritty with colour scheme generated for **` .config/wallpapers/takikiminonawaroof.jpg `** using pywal.\
+Oceanic-Blue , Gruvbox(Dark) , Gnome colour schemes are also available(Commented)
+
 Put the the alacritty folder in your **` ~/.config/ `** directory \
 If **` ~/.config/alacritty `** already exists then put the **` alacritty.yml `** file from the alacrittyy folder of this repo in that directory \
 If a alacritty.yml file already exists the just replace it with this file
